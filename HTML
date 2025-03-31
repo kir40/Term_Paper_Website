@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCompService1</title>
+    <link rel="stylesheet" href="style.css">
+<!--Fonr Awsome Link-->
+<script src="https://kit.fontawesome.com/a4ccdfdc17.js" 
+crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar" role="navigation"aria-label="Main navigation">
+            <div class="navbar__container">
+                <a href="/" id="navbar-logo">BCompService1</a>
+
+                <ul class="navbar__menu"> 
+                    <li class="navbar__item"> 
+                        <a href="/" class="navbar__links">Начало</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="/services.html" class="navbar__links">Сервиз</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="/Нови Компютърни конфигурации.html" class="navbar__links">Нови компютърни конфигурации</a>
+                    </li>
+
+                    <li class="navbar__btn mobile">
+                        <a href="/Регистрация.html" class="navbar__links">Регистрация</a>
+                    </li>
+
+                </ul>
+
+            <div class="navbar__btn"> 
+                <a href="/signup.html" class="btn">Регистрация</a>
+            </div>
+
+            <button class="navbar__toggle"
+            id="mobile-menu"
+            aria-label="Toggle Navigation"
+            aria-expanded="false"
+            onclick="handleMenu()"
+            >
+                <i class="fa fa-solid fa-bars"></i>
+            </button>
+
+            </div>
+        </nav>
+    </header>
+    <!--Hero Section-->
+<main>
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1>Тук е правилното място</h1>
+                <p>Грабни 10%отстъпка за първа поръчка</p>
+                <button class="hero__btn">Вписване</button>
+            </div>
+            <div class="hero__image"> 
+                <img 
+                id="hero-img"
+                src="C:\Users\Westrian_3\Desktop\Term_Paper_Website\images\hero-pic-1.svg" 
+                alt="Gaming конфигурациии от следващото ниво">
+            </div>
+        </div>
+    </section>
+<!--Rotating Logo Section-->
+<div class="rotating-logos">
+    <div class="rotating-logos__track">
+        <span class="logo-text">LENOVO</span>
+         <span class="logo-text">DELL</span>
+          <span class="logo-text">Hewlett-Packard</span>
+           <span class="logo-text">FUJITSU</span>
+            <span class="logo-text">SAMSUNG</span>
+             <span class="logo-text">Logitech</span>
+    </div>
+</div>
+<!--Why Chose Us Section-->
+<section class="why-choose-us">
+    <div class ="container">
+        <h2>Защо да изберете нас</h2>
+        <p class="intro-text">Тук можеш да закупиш всичко:хардуер,периферия устройства втора ръка или направо изцяло нова конфигурация направена специално за теб и твоите нужди</p>
+
+        <div class="features-grid"> 
+            <div class="feature-item"> 
+                <i class="fa-solid fa-link icon"></i>
+                <h3>Имаш директна връзка с нас винаги</h3>
+                <p>Защото за нас твоето мнение ИМА значение.При проблем винаги можеш да се свържеш с нашия support на тел.0895469083 или на E-Mail:BCompService1@gmail.com </p>
+            </div>
+
+            <div class="feature-item"> 
+                <i class="fa-solid fa-thumbs-up icon"></i>
+                <h3>Огромно разнообразие</h3>
+                <p>В нашиия сайт може да разгледаш продукти от накой от най-големите производители за хардуер и периферия</p>
+            </div>
+
+            <div class="feature-item"> 
+                <i class="fa-solid fa-tags icon"></i>
+                <h3>Изгодни цени</h3>
+                <p>Атрактивни промоции</p>
+            </div>
+
+            <div class="feature-item"> 
+                <i class="fa-solid fa-truck-moving icon"></i>
+                <h3>Бърза и ефтина доставка</h3>
+                <p>Безплатна доставка за поръчки над 100лв|до 5 работни дни</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--The Footer Section-->
+<footer>
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link-wraper">
+            <div class="footer__links-items">
+                <h2>За нас</h2>
+                <a href="Terms-of-Service.html">Общи условия</а>
+                    <a href="who-are-we.html">Кои сме ние</а>
+            </div>
+
+          
+            <div class="footer__links-items">
+                <h2>Контакти</h2>
+                <a href="Support.html">Помощ</а>
+                <a href="Locations.html">Локации</а>
+            </div>
+        
+            <div class="footer__links-items">
+                <h2>Социални медии</h2>
+                <a href="https:/www.instagram.com"
+                target="_blank" 
+                rel="noopener noreferrer"
+                >Instagram</а>
+
+                <a href="h0ttps:/www.facebook.com"
+                target="_blank" 
+                rel="noopener noreferrer"
+                >Facebook</а>
+            </div>
+        </div>
+    </div>
+
+    <section class="social__media">
+        <div class="social__media-wrap">
+            <div class="footer__logo">
+             <a href="/"id="footer-logo">BCompService1 </a>
+
+             <p class="website__rights">
+                © BCompService1 <span id="year"></span>ALL rights reserved
+             </p>
+
+             <div class="social__icons">
+                <a href="//https:www.facebook.com" 
+                class="social__icon-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+
+            <a href="//https:www.instagram.com" 
+            class="social__icon-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+             </div>
+            </div>
+        </div>
+</div>
+</footer>
+</main>
+    <script src="app.js"></script>
+</body>
+
+</html>
